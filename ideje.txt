@@ -1,0 +1,6 @@
+sticky header
+promijeniti izgled headera kada se smanji ekran
+lijepsi header
+
+
+slike nadodati
