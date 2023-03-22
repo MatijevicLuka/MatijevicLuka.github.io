@@ -40,6 +40,13 @@
   background-size: cover;
   background-attachment: fixed;
 }
+
+@media only screen and (max-width: 768px) {
+  .scrollable-image-container {
+    background-attachment: scroll;
+  }
+}
+
 .scrollable-image-container-one {
   background-image: url(images/electrician.jpg);
 }
