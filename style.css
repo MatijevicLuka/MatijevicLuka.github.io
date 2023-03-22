@@ -43,14 +43,17 @@
 
 @media only screen and (max-width: 768px) {
   .scrollable-image-container {
-    display: none;
+    height: 140vh;
+    border-radius: 3px;
   }
+  /*
   .scrollable-image-container-one {
     display: none;
   }
   .scrollable-image-container-two {
     display: none;
   }
+  */
 }
 
 .scrollable-image-container-one {
@@ -278,7 +281,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
   align-content: center;
 }
 
