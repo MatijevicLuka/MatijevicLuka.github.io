@@ -107,12 +107,6 @@ nav li {
   margin-left: 20px;
 }
 
-/* For active link in navbar */
-nav a.active {
-  border-bottom: 2px solid white;
-  padding: 3px 0;
-}
-
 /* For Hamburger menu */
 .hamburger-menu {
   display: none; /* hide by default */
@@ -134,7 +128,13 @@ nav a.active {
   align-items: center;
 }
 
-.menu a:hover {
+/* For active and hover link in navbar */
+nav a:hover {
+  border-bottom: 2px solid white;
+  padding: 3px 0;
+}
+
+nav a.active {
   padding: 6px;
   background-color: white;
   border-radius: 4px;
@@ -480,6 +480,10 @@ h1 {
 .position ul li:before {
   content: "\2022";
   margin-right: 5px;
+}
+
+.apply-btn-wrapper {
+  text-align: right;
 }
 
 .apply-btn {
