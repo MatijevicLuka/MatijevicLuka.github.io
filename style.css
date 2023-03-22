@@ -43,13 +43,15 @@
 
 @media only screen and (max-width: 768px) {
   .scrollable-image-container {
+    height: 140vh;
     border-radius: 3px;
   }
+  /**/
   .scrollable-image-container-one {
-    background-image: url(images/electrician_cr.jpg);
+    display: none;
   }
   .scrollable-image-container-two {
-    background-image: url(images/test_cr.jpg);
+    display: none;
   }
 }
 
