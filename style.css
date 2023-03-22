@@ -45,6 +45,7 @@
   .scrollable-image-container {
     height: 140vh;
     border-radius: 3px;
+    background-size: contain;
   }
   /*
   .scrollable-image-container-one {
